@@ -1,0 +1,875 @@
+.heading{
+
+    text-align: center;
+    font-family: 'Poppins';
+
+}
+
+
+#loading{
+
+    position: fixed;
+    left: 331px;
+    width: 73%;
+    /* visibility: hidden; */
+    height: 80vh;
+    background: #F7F7F7 
+    url('./img/Eclipse-1s-200px.gif')
+    no-repeat center;
+    z-index: 99999;
+
+}
+
+
+.main-content{
+
+
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+.main-list{
+
+
+    padding: 39px 0px 10px 20px;
+    width: 25%;
+
+
+
+}
+
+
+
+
+.listdiv{
+
+
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 10px;
+    box-shadow: -3px 3px 10px 0px grey;
+    background-color: #F7F9FD;
+
+
+}
+
+
+
+
+.list-content{
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+
+}
+
+
+
+
+#list{
+
+
+    list-style: none;
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 100%;
+    cursor: pointer;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #013777;
+    /* box-shadow: 0px 0px 4px 1px green; */
+
+
+}
+
+
+#list:hover{
+
+
+    list-style: none;
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 100%;
+    cursor: pointer;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    color: #013777;
+    /* box-shadow: 0px 0px 1px 1px green; */
+
+
+}
+
+.listdiv{
+
+
+    padding: 8px 2px 8px 2px;
+
+
+}
+
+
+
+#list:hover{
+
+
+    list-style: none;
+    background-color: #013777;
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 100%;
+    cursor: pointer;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 16px;
+    color: white;
+
+
+}
+
+
+
+.maincard{
+
+
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    width: 25%;
+
+}
+
+
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: fit-content !important;
+    border-radius: 2px !important;
+    border: green 1px solid !important;
+    box-shadow: 2px 2px 10px 1px grey;
+    background-image: linear-gradient(top to bottom , #F7F9FD , white);
+
+}
+
+
+.card-header{
+
+
+    color: white !important;
+    background-color: #013777 !important;
+    border: 1px solid white !important;
+
+
+}
+
+
+.myClass{
+
+    color: white !important;
+    background-color: green !important;
+    border: 1px solid white !important;
+
+}
+
+.card-header:active{
+
+
+    color: white !important;
+    background-color: green !important;
+    border: 1px solid white !important;
+
+
+}
+
+
+.btn-link{
+
+
+    color: white !important;
+    font-family: 'Poppins';
+
+
+}
+
+
+
+.noData{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: red;
+
+}
+
+
+
+.card:hover{
+
+    border: #013777 1px solid !important;
+    box-shadow: 2px 2px 15px 2px grey;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.card:hover .btn1{
+
+    
+    border: 1px solid green !important;
+    border-radius: 2px !important;
+    background-color: #013777 !important;
+    cursor: pointer;
+
+}
+
+
+
+.card:hover .img-card{
+
+
+    border: #013777 4px solid;
+
+
+}
+
+
+
+
+.hov{
+
+    padding: 10px;
+    width: 100%;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+.data{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8px;
+
+
+}
+
+
+
+
+.img-card{
+
+    border-radius: 100px;
+    border: 4px solid green;
+    width: 59%;
+    box-shadow: 0px 0px 6px 1px grey;
+    height: 100px;
+}
+
+
+
+
+.img-card:hover{
+
+    border: #013777 4px solid;
+
+
+}
+
+
+
+
+.card-heading , .card-desig , .card-dept{
+
+
+
+    text-align: center;
+    font-family: 'Poppins';
+    color: green;
+    font-size: 14px;
+
+
+
+}
+
+
+
+
+.card-heading{
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #013777;
+
+}
+
+
+
+
+.mg{
+
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+.butn{
+
+    font-family: 'Poppins' !important;
+    border-radius: 2px !important;
+    text-align: center;
+
+}
+
+
+
+
+.btn1{
+
+
+    border: 1px solid green !important;
+    border-radius: 2px !important;
+    background-color: green !important;
+   
+
+
+}
+
+
+
+
+.btn1:hover{
+
+
+    border: 1px solid green !important;
+    border-radius: 2px !important;
+    background-color: #013777 !important;
+
+
+}
+
+
+
+
+.btn-primary{
+
+    font-size: 13px !important;
+    line-height: 1 !important;
+    padding: 10px 20px !important;
+
+}
+
+.btn-primary:active{
+
+
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+
+.btn1:active{
+
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+.btn-primary:focus{
+
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+.btn1:focus{
+
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+
+
+
+.cardsdiv{
+
+
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+
+}
+
+
+
+
+
+@media (min-width : 200px) and (max-width : 576px) {
+
+
+
+    .cardsdiv {
+
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+
+
+    }
+
+    .maincard {
+
+
+        display: flex;
+        flex-direction: row;
+        padding: 18px;
+        width: 100%;
+
+
+    }
+    
+    .main-list {
+
+
+        padding: 10px;
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media (min-width : 576px) and (max-width : 768px) {
+
+
+
+
+    .main-list {
+
+        padding: 10px;
+        width: 60%;
+
+    }
+
+    .main-content{
+
+
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    
+    }
+
+
+
+    .cardsdiv {
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+
+    }
+
+    
+
+    .maincard {
+
+        display: flex;
+        flex-direction: row;
+        padding: 18px;
+        width: 50%;
+
+    }
+
+
+    
+}
+
+
+@media (min-width : 768px) and (max-width : 1024px) {
+
+    .main-content{
+
+
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    
+    
+    }
+
+    .cardsdiv{
+
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+    
+    }
+
+    .maincard{
+
+
+        display: flex;
+        flex-direction: row;
+        padding: 18px;
+        width: 50%;
+    
+    }
+
+    .main-list{
+
+
+        padding: 10px;
+        width: 50%;
+    
+    
+    
+    }
+    
+    
+    
+}
+
+.active_li {
+
+    background-color: #013777;
+    color: white !important;
+
+}
+
+.card-active{
+
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    color: white !important;
+    background-color: #013777 !important;
+    border: 1px solid white !important;
+
+}
+
+
+  
+  /* Popup arrow */
+
+  /*
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  */
+  
+
+  /* Modal Css*/
+
+.modal-dialog{
+
+
+    margin-top: 90px !important;
+
+
+}
+
+
+.modal-content{
+
+
+    border: 1px solid #013777 !important;
+    border-radius: 1px 40px 0px 40px !important;
+    height: 80vh !important;
+    width: 110%;
+
+
+}
+
+
+.modal-body{
+
+    height: 250px;
+    overflow-y: scroll;
+
+}
+
+
+.mainheading{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Poppins';
+    width: 100%;
+    font-size: 30px;
+    color: #013777;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+.contentDiv{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+.imgDiv{
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -80px;
+
+}
+
+
+.image{
+
+    text-align: center;
+
+}
+
+.mainimg{
+
+
+    border-radius: 100px;
+    width: 19%;
+    height: 135px;
+    /* border-top: 2px solid #013777;
+    border-left: 2px solid #013777;
+    border-right: 2px solid #013777; */
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+    
+
+
+}
+
+.detContDiv{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 17px 0px 0px 0px;
+
+
+
+}
+
+.nameHeading{
+
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #013777;
+    font-weight: 600;
+
+
+}
+
+
+.designHeading{
+
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: green;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+
+
+.headingsDiv{
+
+
+    font-family: 'Poppins';
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.eduHeading{
+
+
+    font-size: 25px;
+    font-weight: 550;
+    color: #013777;
+
+
+}
+
+
+.eduList{
+
+    padding-top: 10px;
+    list-style: none;
+
+}
+
+.fa{
+
+    color: green;
+    padding-right: 5px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+
+    background: #f1f1f1;
+  
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+
+    background: #013777;
+
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    
+    background: #555;
+
+}
+
+
+
+.plus{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+
+/* Accordion Css */
+
+.accordion-item{
+
+    border: 1px solid rgb(6, 157, 65) !important;
+    font-family: 'Poppins' !important;
+
+
+}
+
+.accordion-button{
+
+    font-weight: 600 !important;
+    color: #013777 !important;
+
+}
+
+
+.accordion-header{
+
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+
+}
+
+.accordion-button:not(.collapsed){
+
+    background-color: #3DB166 !important;
+    color: #F7F7F7 !important;
+    box-shadow: none !important;
+
+}
